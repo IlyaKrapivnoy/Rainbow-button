@@ -1,3 +1,7 @@
+:root {
+    --basebg: #1e1f21;
+}
+
 body{
     display: flex;
     justify-content: center; 
@@ -5,7 +9,7 @@ body{
     min-height: 100vh;
     
     font-family: sans-serif;
-    background-color: #1e1f21;
+    background-color:var(--basebg, #1e1f21);
   }
   
   .btn{
@@ -38,7 +42,7 @@ body{
     background-image: linear-gradient(45deg,#f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
 
     background-size: 200%;
-    
+
     animation: animateborder 3s ease infinite paused;
   }
   
